@@ -7,6 +7,7 @@ export function mult(a:number, b:number) {
 
 export function splitIntoWords(sentence:string) {
 
+
     const words = sentence.toLowerCase().split(" ")
 
 
