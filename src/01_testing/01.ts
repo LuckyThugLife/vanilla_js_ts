@@ -9,6 +9,8 @@ export function splitIntoWords(sentence:string) {
 
     const words = sentence.toLowerCase().split(" ")
 
+
+
     return words.filter(w => w !== "" && w !== "-")
         .map(w => w
             .replace("!", "")
